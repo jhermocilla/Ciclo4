@@ -13,11 +13,13 @@ function Regorden() {
   return (
     <Fragment>
       <section class="">
-            <h1>Gestion de paquetes - Registro ordenes (Recogida)</h1>
+            
                
                   <div class="container">
-                    <div class="abs-center">
+                    <div class="abs-center-ro">
                       <form className="border p-3 form" rule="form" onSubmit={enviarDatos}>
+                      <h5>Gestion de paquetes - Registro ordenes (Recogida)</h5><br />
+                      <div className="border p-3">
                         <div className="form-group row">
                           <label class="col-form-label col-sm-2" htmlFor="">Fecha</label>
                           <div class="col-sm-4">
@@ -175,7 +177,7 @@ function Regorden() {
                           >
                             Crear orden
                           </button>
-                       
+                          </div>
                       </form>
                     </div>
                   </div>
